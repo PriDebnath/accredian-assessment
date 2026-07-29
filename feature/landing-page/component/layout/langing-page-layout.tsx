@@ -1,4 +1,4 @@
-import Navbar from "../Navbar";
+import Navbar from "../navbar";
 
 export default function LangingPageLayout({
   children,
@@ -8,7 +8,7 @@ export default function LangingPageLayout({
   return (
     <>
       <Navbar />
-      <main  className="p-4">
+      <main  className="">
         {children}
         </main>
     </>

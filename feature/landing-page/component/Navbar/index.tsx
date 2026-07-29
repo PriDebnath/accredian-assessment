@@ -22,8 +22,8 @@ export default function Navbar() {
     };
 
     return (
-        <header className="sticky top-0 z-50 w-full border-b border-neutral-200 bg-white/95 backdrop-blur">
-            <nav className="hidden md:flex h-20 items-center justify-between p-6">
+        <header className="sticky top-0 z-50 w-full border-b shadow-2xl border-neutral-200 bg-white/95 backdrop-blur ">
+            <nav className="hidden lg:flex h-20 items-center justify-between p-6">
                 <button
                     onClick={() => handleNavClick("home")}
                     className="shrink-0 w-30"
@@ -37,23 +37,12 @@ export default function Navbar() {
                             <button
                                 key={item.id}
                                 onClick={() => handleNavClick(item.id)}
-                                className="relative px-4 py-2 text-sm font-medium"
+                                className="relative px-2 py-2 text-sm font-medium"
                             >
-                                {isActive && (
-                                    <motion.div
-                                        layoutId="active-pill-desktop"
-                                        className="absolute inset-0 rounded-lg bg-neutral-100"
-                                        transition={{
-                                            type: "spring",
-                                            stiffness: 300,
-                                            damping: 25,
-                                        }}
-                                    />
-                                )}
                                 <span
                                     className={`capitalize relative text-base z-10 
                                         ${isActive ? "text-primary font-semibold" : "text-black"}
-                          ${isActive ? " border-transparent border-b-primary border-2" : "border-transparent"}
+                                        ${isActive ? " border-transparent border-b-primary border-2" : "border-transparent"}
                                         `}
                                 >
                                     {item.id}
@@ -63,7 +52,7 @@ export default function Navbar() {
                     })}
                 </div>
             </nav>
-            <nav className="flex md:hidden  items-center justify-between px-6 py-6">
+            <nav className="flex lg:hidden  items-center justify-between px-6 py-6">
                 <button
                     onClick={() => handleNavClick("home")}
                     className="shrink-0 w-30"

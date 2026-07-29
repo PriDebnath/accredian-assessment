@@ -34,6 +34,7 @@ export default function MobileMenu(props: Props) {
       <NavigationMenuList>
         <NavigationMenuItem value="mobile-menu">
           <NavigationMenuTrigger
+          nativeButton={false}
             render={<MenuSvg />}
           >
           </NavigationMenuTrigger>
