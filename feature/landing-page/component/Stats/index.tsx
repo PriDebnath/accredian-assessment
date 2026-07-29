@@ -1,51 +1,57 @@
 import { PAGE_ITEMS } from "@/constants";
-import  StatCard  from "./StatCard";
 
-const stats = [
+const trackRecords = [
   {
     value: "10K+",
-    label: "Professionals Trained",
+    title: "Professionals Trained for Exceptional Career Success",
   },
   {
     value: "200+",
-    label: "Learning Sessions Delivered",
+    title: "Sessions Delivered With Unmatched Learning Excellence",
   },
   {
     value: "5K+",
-    label: "Active Learners",
+    title: "Active Learners Engaged in Dynamic Courses",
   },
 ];
 
-export default function Stats() {
+export default function TrackRecord() {
   return (
-    <section className="bg-white py-20" id={PAGE_ITEMS.stats}>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section
+      id={PAGE_ITEMS.stats}
+      className="px-6 py-18 md:px-16 md:py-18"
+    >
+      <div className="mx-auto max-w-5xl">
         {/* Heading */}
-
-        <div className="mx-auto max-w-2xl text-center">
-          <span className="inline-flex rounded-full bg-orange-50 px-4 py-1 text-sm font-semibold text-[#ff6b35]">
-            Track Record
-          </span>
-
-          <h2 className="mt-5 text-3xl font-bold tracking-tight text-[#10233f] md:text-5xl">
-            Trusted by Growing Teams
+        <div className="text-center">
+          <h2 className="text-3xl font-bold md:text-3xl">
+            Our <span className="text-primary">Track Record</span>
           </h2>
 
-          <p className="mt-5 text-lg leading-8 text-slate-600">
-            We partner with organizations to build future-ready talent through
-            industry-driven learning experiences.
+          <p className="mt-2  ">
+            The Numbers Behind <span className="text-primary"> Our Success</span>
           </p>
         </div>
 
         {/* Stats */}
+        <div className="mt-10  flex flex-col md:flex-row  gap-4 px-16">
+          {trackRecords.map((record, index) => (
+            <div
+              key={record.value}
+              className={`
+                flex flex-raw md:flex-col  gap-2 items-center  py-6 text-center
+                ${index !== 0 ? "border-t md:border-l md:border-t-0 border-gray-200" : ""}
+              `}
+            >
+              <div 
+              className="flex h-10 min-w-16 items-center justify-center rounded-full bg-blue-100 px-4 text-2xl font-bold text-primary">
+                {record.value}
+              </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
-          {stats.map((stat) => (
-            <StatCard
-              key={stat.label}
-              value={stat.value}
-              label={stat.label}
-            />
+              <p className=" leading-relaxed ">
+                {record.title}
+              </p>
+            </div>
           ))}
         </div>
       </div>

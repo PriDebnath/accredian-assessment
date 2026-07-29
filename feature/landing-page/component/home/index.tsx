@@ -29,7 +29,7 @@ const highlights = [
 export default function Home() {
   return (
     <section id={PAGE_ITEMS.home} className=" md:my-8 md:p-4 ">
-      <div className="px-12 flex items-center flex-col-reverse md:flex-row bg-blue-50 rounded-2xl"
+      <div className="px-12 py-4 md:py-0 flex items-center flex-col-reverse md:flex-row bg-blue-50 rounded-2xl"
       style={{boxShadow:'0px 0px 4rem rgba(0,0,0,0.35)'}}>
         <div className="  w-full text-center md:text-left">
 
