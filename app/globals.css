@@ -146,3 +146,19 @@ button{
     @apply font-sans;
   }
 }
+
+.animate-marquee {
+    display: flex;
+    width: -moz-max-content;
+    width: max-content;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+}
+100% {
+    transform: translate(-50%);
+}
+}
