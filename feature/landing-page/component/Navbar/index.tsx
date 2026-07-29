@@ -24,11 +24,11 @@ export default function Navbar() {
     return (
         <header className="sticky top-0 z-50 w-full border-b border-neutral-200 bg-white/95 backdrop-blur">
             <nav className="hidden md:flex h-20 items-center justify-between p-6">
-                                <button
+                <button
                     onClick={() => handleNavClick("home")}
-                    className="shrink-0 w-30" 
+                    className="shrink-0 w-30"
                 >
-                   <Image src={Logo} alt="Logo" className="w-full h-full"/>
+                    <Image src={Logo} alt="Logo" className="w-full h-full" />
                 </button>
                 <div className="flex items-center gap-1">
                     {NAVIGATION_ITEMS.map((item) => {
@@ -51,11 +51,10 @@ export default function Navbar() {
                                     />
                                 )}
                                 <span
-                                    className={`capitalize relative text-base z-10 ${
-                                        isActive
-                                            ? "text-primary font-semibold"
-                                            : "text-black"
-                                    }`}
+                                    className={`capitalize relative text-base z-10 
+                                        ${isActive ? "text-primary font-semibold" : "text-black"}
+                          ${isActive ? " border-transparent border-b-primary border-2" : "border-transparent"}
+                                        `}
                                 >
                                     {item.id}
                                 </span>
@@ -65,13 +64,13 @@ export default function Navbar() {
                 </div>
             </nav>
             <nav className="flex md:hidden  items-center justify-between px-6 py-6">
-                            <button
+                <button
                     onClick={() => handleNavClick("home")}
-                    className="shrink-0 w-30" 
+                    className="shrink-0 w-30"
                 >
-                   <Image src={Logo} alt="Logo" className="w-full h-full"/>
+                    <Image src={Logo} alt="Logo" className="w-full h-full" />
                 </button>
-              <MobileMenu active={active} handleNavClick={handleNavClick}/>
+                <MobileMenu active={active} handleNavClick={handleNavClick} />
             </nav>
         </header>
     );
