@@ -44,7 +44,7 @@ export default function TrainingSolutionsCta() {
               variant="secondary"
               className="h-14 min-w-[200px] rounded-lg px-8 text-base font-semibold text-primary shadow-none"
             >
-              <a href="#enquire">
+              <a href="#enquire" className="flex items-center">
                 Contact Us
                 <ChevronRight className="ml-1 h-5 w-5" />
               </a>

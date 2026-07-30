@@ -4,6 +4,7 @@ import { useState } from "react";
 import { PAGE_ITEMS } from "@/constants";
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import EnquireDialog from "@/app/component/EnquireDialog";
 
 const faqCategories = [
   {
@@ -199,19 +200,9 @@ export default function Faq() {
 
         {/* CTA */}
         <div className="mt-10 flex justify-center">
-          <Button
-            size="lg"
-            className="px-8 py-5 text-base font-semibold"
-            onClick={() => {
-              document
-                .getElementById("enquire")
-                ?.scrollIntoView({
-                  behavior: "smooth",
-                });
-            }}
-          >
-            Enquire Now
-          </Button>
+
+          <EnquireDialog size="lg" buttonClass="px-8 py-5 text-base font-semibold" />
+
         </div>
       </div>
     </section>

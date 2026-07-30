@@ -9,6 +9,7 @@ import {
 } from "./svg/index";
 
 import Logo from "@/public/images/logo.webp";
+import EnquireDialog from "@/app/component/EnquireDialog";
 
 export default function Footer() {
   return (
@@ -90,12 +91,8 @@ export default function Footer() {
 
           {/* CTA */}
           <div className="md:text-right">
-            <Link
-              href="#enquire"
-              className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-sm font-semibold text-white transition hover:opacity-90"
-            >
-              Enquire Now
-            </Link>
+            <EnquireDialog size="lg" buttonClass="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-sm font-semibold text-white transition hover:opacity-90" />
+
 
             <p className="mt-2 text-sm text-[#172554]">
               Speak with our Advisor

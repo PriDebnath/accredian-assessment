@@ -1,6 +1,8 @@
-#  Accredian Enterprise Clone
+#  Accredian Enterprise Clone by Pritam Debnath
 
-A responsive recreation of the Accredian Enterprise landing page built with Next.js, TypeScript, Tailwind CSS, Shadcn UI, and Swiper.
+
+- A responsive recreation of the Accredian Enterprise landing page built with Next.js, TypeScript, Tailwind CSS, Shadcn UI, and Swiper.
+
 ------
 
 ## 🔴 Demo

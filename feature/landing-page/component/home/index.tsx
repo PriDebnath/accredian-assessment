@@ -13,6 +13,7 @@ import { CheckedSvg } from "./svg";
 import { PAGE_ITEMS } from "@/constants";
 import { Button } from "@/components/ui/button";
 import CorporateImg from "@/public/images/corporate-big-hero-v4.webp"
+import EnquireDialog from "@/app/component/EnquireDialog";
 
 const highlights = [
   {
@@ -64,10 +65,7 @@ export default function Home() {
           </div>
 
           <div className="mt-10">
-            <Button size={'lg'} className={'text-xl px-10 py-6 w-full md:w-fit '}>
-              Enquire Now
-
-            </Button>
+            <EnquireDialog size="lg" buttonClass={'text-xl px-10 py-6 w-full md:w-fit '} />
           </div>
         </div>
 

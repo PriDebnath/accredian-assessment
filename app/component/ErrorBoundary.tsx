@@ -3,8 +3,8 @@
 import { Component, ReactNode } from "react";
 
 export default class ErrorBoundary extends Component<
-  { 
-    children: ReactNode 
+  {
+    children: ReactNode
     errorMessage?: string;
   },
   { hasError: boolean }
@@ -18,10 +18,10 @@ export default class ErrorBoundary extends Component<
   render() {
     if (this.state.hasError) {
       return (
-           <div className="rounded-2xl bg-neutral-900 p-4 text-red-500">
+        <div className="rounded-2xl bg-neutral-900 p-4 text-red-500">
           {this.props.errorMessage ?? "Something went wrong. Contact the developer."}
         </div>
-        )
+      )
     }
 
     return this.props.children;
