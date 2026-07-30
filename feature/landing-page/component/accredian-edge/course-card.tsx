@@ -18,7 +18,7 @@ export default function CourseCard(props: Props) {
             </div>
 
             <div className="px-8 py-5 pb-8 text-center ">
-                <h3 className="text-2xl py-2 font-semibold text-primary">
+                <h3 className="text-2xl py-2 font-semibold text-primary text-nowrap">
                     {title}
                 </h3>
                 <p className="text-xs text-gray-700">

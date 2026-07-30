@@ -22,8 +22,8 @@ export default function Navbar() {
     };
 
     return (
-        <header className="sticky top-0 z-50 w-full border-b shadow-2xl border-neutral-200 bg-white/95 backdrop-blur ">
-            <nav className="hidden lg:flex h-20 items-center justify-between p-6">
+        <header className="sticky top-0 z-50 w-full border-b shadow-lg border-neutral-200 bg-white/95 backdrop-blur ">
+            <nav className="hidden lg:flex h-20 items-center justify-between px-12 py-4">
                 <button
                     onClick={() => handleNavClick("home")}
                     className="shrink-0 w-30"

@@ -4,7 +4,7 @@ import LangingPageLayout from "@/feature/landing-page/component/layout/langing-p
 import Home from "@/feature/landing-page/component/home";
 import Stats from "@/feature/landing-page/component/stats/index";
 import Partnerships from "@/feature/landing-page/component/partnerships";
-import CourseSegmentation from "@/feature/landing-page/component/CAT";
+ import AccredianEdge from "@/feature/landing-page/component/accredian-edge";
 
 export default async function Page() {
   return (
@@ -12,8 +12,7 @@ export default async function Page() {
 <Home/>
 <Stats/>
 <Partnerships/>
-
-<CourseSegmentation/>
+<AccredianEdge/>
 
 </LangingPageLayout>
 

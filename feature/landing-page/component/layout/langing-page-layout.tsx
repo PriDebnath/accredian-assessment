@@ -1,4 +1,4 @@
-import Navbar from "../navbar";
+import Navbar from "@/feature/landing-page/component/navbar/index";
 
 export default function LangingPageLayout({
   children,

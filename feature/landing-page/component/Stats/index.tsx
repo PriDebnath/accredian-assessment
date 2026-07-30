@@ -15,7 +15,7 @@ const trackRecords = [
   },
 ];
 
-export default function TrackRecord() {
+export default function Stats() {
   return (
     <section
       id={PAGE_ITEMS.stats}
