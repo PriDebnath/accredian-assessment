@@ -170,7 +170,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="py-4 text-center">
-          <p className="text-sm text-[#172554]">
+          <p className="text-sm text-[#172554]"> 
             © {new Date().getFullYear()} Accredian A Brand of FullStack
             Education Pvt Ltd. All Rights Reserved
           </p>

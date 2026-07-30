@@ -8,10 +8,10 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import ProgramSpecificImg from "@/public/images/CAT/project-management-v2.webp";
-import IndustrySpecificImg from "@/public/images/CAT/digital-transformation-v2.webp";
-import TopicSpecificImg from "@/public/images/CAT/data-science-v2.webp";
-import LevelSpecificImg from "@/public/images/CAT/senior-management-v2.webp";
+import ProgramSpecificImg from "@/public/images/accredian-edge/project-management-v2.webp";
+import IndustrySpecificImg from "@/public/images/accredian-edge/digital-transformation-v2.webp";
+import TopicSpecificImg from "@/public/images/accredian-edge/data-science-v2.webp";
+import LevelSpecificImg from "@/public/images/accredian-edge/senior-management-v2.webp";
 import CourseCard from "./course-card";
 
 const courses = [
