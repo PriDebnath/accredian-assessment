@@ -19,7 +19,7 @@ export default function Stats() {
   return (
     <section
       id={PAGE_ITEMS.stats}
-      className="px-6 py-18 md:px-16 md:py-18"
+      className="px-6 py-20 md:px-16 md:py-22"
     >
       <div className="mx-auto max-w-5xl">
         {/* Heading */}

@@ -6,6 +6,7 @@ import {
     ChartNoAxesCombined,
     CircleCheck,
     Lightbulb,
+    Lollipop,
     Rocket,
     ShieldCheck,
 } from "lucide-react";
@@ -65,9 +66,9 @@ export default function AccredianEdge() {
     return (
         <section
             id={PAGE_ITEMS['Accredian Edge']}
-            className="px-6 py-10 md:px-10 md:py-14"
+            className="px-6 py-10 md:px-10 md:py-20"
         >
-            <div className="mx-auto max-w-6xl">
+            <div className="mx-auto max-w-6xl py-4">
                 {/* Heading */}
                 <div className="text-center">
                     <h2 className="text-2xl font-bold md:text-4xl">

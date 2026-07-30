@@ -56,7 +56,7 @@ function Logos() {
 export default function LogoGroup() {
 
     return (
-        <div className="relative mt-10 w-full overflow-hidden">
+        <div className="relative mt-16 w-full overflow-hidden">
             <div className="animate-marquee flex w-max">
                 <Logos />
                 <Logos />

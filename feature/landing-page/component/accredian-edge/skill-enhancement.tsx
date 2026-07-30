@@ -80,7 +80,7 @@ export default function SkillEnhancement() {
                                         key={audience.title}
                                         className="flex gap-4"
                                     >
-                                        <div className="flex items-center gap-2">
+                                        <div className="flex items-center md:items-start md:flex-col gap-2">
                                             <Icon
                                                 className="my-1 h-8 md:h-16 w-8  md:w-16 shrink-0 text-white"
                                                 strokeWidth={1.6}

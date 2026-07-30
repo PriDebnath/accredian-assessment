@@ -31,9 +31,9 @@ export default function Home() {
     <section id={PAGE_ITEMS.home} className=" md:my-8 md:p-4 ">
       <div className="px-12 py-4 md:py-0 flex items-center flex-col-reverse md:flex-row bg-blue-50 rounded-2xl"
         style={{ boxShadow: '0px 0px 4rem rgba(0,0,0,0.35)' }}>
-        <div className="  w-full text-center md:text-left">
+        <div className="  w-full text-center md:text-left ">
 
-          <h1 className="text-2xl md:text-4xl mt-2 lg:text-5xl font-bold justify-center  text-nowrap md:block flex gap-2 ">
+          <h1 className="text-3xl md:text-4xl mt-2 lg:text-6xl font-bold justify-center  text-nowrap md:block flex gap-2 ">
             <div className=" text-nowrap">
               Next-Gen
               <span className="text-primary"> Expertise</span>
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </h1>
 
-          <p className="mt-4   text-base font-normal ">
+          <p className="mt-4 text-lg   md:text-2xl font-normal md:my-8 ">
             Cultivate high-performance teams through  expert learning.
           </p>
 
