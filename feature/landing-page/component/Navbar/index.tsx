@@ -1,12 +1,12 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useState } from "react";
-import { NAVIGATION_ITEMS, PAGE_ITEMS } from "@/constants";
-import { Menu } from "lucide-react";
 import Image from "next/image";
-import Logo from "@/public/images/logo.webp"
+import { useState } from "react";
+import { Menu } from "lucide-react";
+import { motion } from "framer-motion";
 import MobileMenu from "./mobile-menu";
+import Logo from "@/public/images/logo.webp"
+import { NAVIGATION_ITEMS, PAGE_ITEMS } from "@/constants";
 
 export default function Navbar() {
     const [active, setActive] = useState<keyof typeof PAGE_ITEMS>("home");

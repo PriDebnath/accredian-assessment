@@ -1,6 +1,6 @@
-import { Headphones, ChevronRight } from "lucide-react";
 import { PAGE_ITEMS } from "@/constants";
 import { Button } from "@/components/ui/button";
+import { Headphones, ChevronRight } from "lucide-react";
 
 export default function TrainingSolutionsCta() {
   return (

@@ -9,12 +9,12 @@ import {
     Rocket,
     ShieldCheck,
 } from "lucide-react";
-import { PAGE_ITEMS } from "@/constants";
-import AccredianEdgeImg from "@/public/images/accredian-edge/accredian-edge-usp-v3.svg";
 import Image from "next/image";
+import { PAGE_ITEMS } from "@/constants";
 import DomainExpertise from "./domain-expertise";
-import CourseSegmentation from "./tailored-course-segmentation";
 import SkillEnhancement from "./skill-enhancement";
+import CourseSegmentation from "./tailored-course-segmentation";
+import AccredianEdgeImg from "@/public/images/accredian-edge/accredian-edge-usp-v3.svg";
 
 const edgeItems = [
     {

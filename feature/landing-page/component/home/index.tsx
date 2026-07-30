@@ -9,8 +9,8 @@ import {
   Target,
   Users,
 } from "lucide-react";
-import { PAGE_ITEMS } from "@/constants";
 import { CheckedSvg } from "./svg";
+import { PAGE_ITEMS } from "@/constants";
 import { Button } from "@/components/ui/button";
 import CorporateImg from "@/public/images/corporate-big-hero-v4.webp"
 
@@ -30,12 +30,12 @@ export default function Home() {
   return (
     <section id={PAGE_ITEMS.home} className=" md:my-8 md:p-4 ">
       <div className="px-12 py-4 md:py-0 flex items-center flex-col-reverse md:flex-row bg-blue-50 rounded-2xl"
-      style={{boxShadow:'0px 0px 4rem rgba(0,0,0,0.35)'}}>
+        style={{ boxShadow: '0px 0px 4rem rgba(0,0,0,0.35)' }}>
         <div className="  w-full text-center md:text-left">
 
           <h1 className="text-2xl md:text-4xl mt-2 lg:text-5xl font-bold justify-center  text-nowrap md:block flex gap-2 ">
             <div className=" text-nowrap">
-              Next-Gen 
+              Next-Gen
               <span className="text-primary"> Expertise</span>
             </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
 
         <div className="w-full ">
-                    <Image src={CorporateImg} alt="CorporateImg" className="w-full h-full" />
+          <Image src={CorporateImg} alt="CorporateImg" className="w-full h-full" />
         </div>
       </div>
     </section>

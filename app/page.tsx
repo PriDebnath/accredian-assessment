@@ -5,7 +5,7 @@ import Home from "@/feature/landing-page/component/home";
 import Stats from "@/feature/landing-page/component/stats/index";
 import Partnerships from "@/feature/landing-page/component/partnerships";
  import AccredianEdge from "@/feature/landing-page/component/accredian-edge";
-import CatFramework from "@/feature/landing-page/component/CAT";
+import CatFramework from "@/feature/landing-page/component/cat";
 import HowWeDeliverResults from "@/feature/landing-page/component/how-it-works";
 import Faqs from "@/feature/landing-page/component/faqs";
 import Testimonials from "@/feature/landing-page/component/testimonials";

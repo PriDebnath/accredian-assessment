@@ -1,6 +1,6 @@
 import Image from "next/image";
+import LogoGroup from "./logo-group";
 import { PAGE_ITEMS } from "@/constants";
-import LogoGroup from "./LogoGroup";
 
 
 export default function Partnerships() {

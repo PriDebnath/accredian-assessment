@@ -1,18 +1,19 @@
 "use client";
 
 import Image from "next/image";
+import CourseCard from "./course-card";
 import { PAGE_ITEMS } from "@/constants";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
 
-import ProgramSpecificImg from "@/public/images/accredian-edge/project-management-v2.webp";
-import IndustrySpecificImg from "@/public/images/accredian-edge/digital-transformation-v2.webp";
+
 import TopicSpecificImg from "@/public/images/accredian-edge/data-science-v2.webp";
 import LevelSpecificImg from "@/public/images/accredian-edge/senior-management-v2.webp";
-import CourseCard from "./course-card";
+import ProgramSpecificImg from "@/public/images/accredian-edge/project-management-v2.webp";
+import IndustrySpecificImg from "@/public/images/accredian-edge/digital-transformation-v2.webp";
 
 const courses = [
     {
@@ -130,7 +131,6 @@ export default function CourseSegmentation() {
 
 
 
-  
 
 
 
@@ -149,4 +149,4 @@ export default function CourseSegmentation() {
 
 
 
- 
+

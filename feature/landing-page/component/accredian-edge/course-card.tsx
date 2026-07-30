@@ -3,6 +3,7 @@ import Image, { StaticImageData } from "next/image";
 interface Props {
     title: string; des: string; image: StaticImageData
 }
+
 export default function CourseCard(props: Props) {
     const { image, title, des } = props
     return (

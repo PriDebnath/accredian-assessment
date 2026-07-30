@@ -1,8 +1,8 @@
 "use client";
 
 import {
-    Banknote,
-    Brain,
+  Banknote,
+  Brain,
   BrainCircuit,
   ChartNoAxesColumnIncreasing,
   ChartNoAxesCombined,
@@ -29,7 +29,7 @@ const domains = [
   },
   {
     title: "Tech & Data Insights",
-    icon: ChartNoAxesColumnIncreasing ,
+    icon: ChartNoAxesColumnIncreasing,
   },
   {
     title: "Operations Excellence",
@@ -48,7 +48,7 @@ const domains = [
 export default function DomainExpertise() {
   return (
     <section
-    //   id={PAGE_ITEMS['']}
+      //   id={PAGE_ITEMS['']}
       className="px-6 py-10 md:px-10 md:py-24"
     >
       <div className="mx-auto max-w-5xl">
@@ -59,8 +59,8 @@ export default function DomainExpertise() {
           </h2>
 
           <p className="mt-2 text-lg text-gray-700">
-           <span className="text-primary">
-           Specialized Programs </span>  Designed for Fuel Innovation
+            <span className="text-primary">
+              Specialized Programs </span>  Designed for Fuel Innovation
           </p>
         </div>
 

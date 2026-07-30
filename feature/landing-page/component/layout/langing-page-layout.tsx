@@ -8,9 +8,9 @@ export default function LangingPageLayout({
   return (
     <>
       <Navbar />
-      <main  className="">
+      <main className="">
         {children}
-        </main>
+      </main>
     </>
   );
 }

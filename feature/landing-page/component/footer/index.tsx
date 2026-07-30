@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Facebook,
   Instagram,
@@ -30,7 +30,7 @@ export default function Footer() {
 
             {/* Social icons */}
             <div className="mt-3 flex items-center gap-5">
-     
+
               <Link
                 href="https://facebook.com/accredianlearn"
                 aria-label="Facebook"
@@ -45,7 +45,7 @@ export default function Footer() {
               <Link
                 href="https://www.linkedin.com/company/accredianedu/"
                 aria-label="LinkedIn"
-                  className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
+                className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
               >
                 <Linkedin
                   className="h-5 w-5 fill-current"
@@ -56,7 +56,7 @@ export default function Footer() {
               <Link
                 href="https://twitter.com/accredianedu"
                 aria-label="Twitter"
-                  className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
+                className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
               >
                 <Twitter
                   className="h-5 w-5 fill-current"
@@ -67,7 +67,7 @@ export default function Footer() {
               <Link
                 href="https://www.instagram.com/accredian_edu"
                 aria-label="Instagram"
-                  className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
+                className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
               >
                 <Instagram
                   className="h-5 w-5"
@@ -78,7 +78,7 @@ export default function Footer() {
               <Link
                 href="https://www.youtube.com/channel/UCE0L_4ADPU2iyKnDJ0xRzyA"
                 aria-label="YouTube"
-                  className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
+                className="transition h-6 w-6 fill-gray-700 hover:text-primary hover:fill-primary"
               >
                 <Youtube
                   className="h-5 w-5 fill-current"
@@ -170,7 +170,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="py-4 text-center">
-          <p className="text-sm text-[#172554]"> 
+          <p className="text-sm text-[#172554]">
             © {new Date().getFullYear()} Accredian A Brand of FullStack
             Education Pvt Ltd. All Rights Reserved
           </p>

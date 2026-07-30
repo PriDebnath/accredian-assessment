@@ -17,8 +17,8 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { NAVIGATION_ITEMS, type PAGE_ITEMS } from "@/constants"
 import { CrossMenuSvg, MenuSvg } from "./svg"
+import { NAVIGATION_ITEMS, type PAGE_ITEMS } from "@/constants"
 
 interface Props {
   active: keyof typeof PAGE_ITEMS;
@@ -34,7 +34,7 @@ export default function MobileMenu(props: Props) {
       <NavigationMenuList>
         <NavigationMenuItem value="mobile-menu">
           <NavigationMenuTrigger
-          nativeButton={false}
+            nativeButton={false}
             render={<MenuSvg />}
           >
           </NavigationMenuTrigger>
