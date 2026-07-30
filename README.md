@@ -53,3 +53,4 @@ npm run dev
 ## Improvements you would make with more time
 - Add more refined animations and transitions
 - Further refine mobile interactions
+- Add API layer to display real data
